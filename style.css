@@ -1,0 +1,1115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .container {
+  max-width: 1100px;
+  width: 100%;
+  margin: auto;
+} */
+
+@font-face {
+  font-family: CocoSharp-Regular;
+  src: url(./Coco-Sharp-Regular-trial.ttf);
+  src: url(./Coco-Sharp-Bold-Italic-trial.ttf);
+  src: url(./Coco-Sharp-Bold-trial.ttf);
+  src: url(./Coco-Sharp-Extrabold-Italic-trial.ttf);
+  src: url(./Coco-Sharp-Extrabold-trial.ttf);
+  src: url(./Coco-Sharp-Extralight-Italic-trial.ttf);
+  src: url(./Coco-Sharp-Extralight-trial.ttf);
+  src: url(./Coco-Sharp-Heavy-Italic-trial.ttf);
+  src: url(./Coco-Sharp-Heavy-trial.ttf);
+  src: url(./Coco-Sharp-Italic-trial.ttf);
+  src: url(./Coco-Sharp-Light-Italic-trial.ttf);
+  src: url(./Coco-Sharp-Light-trial.ttf);
+}
+
+@font-face {
+  font-family: CocoSharp-Extrabold;
+  src: url(./Coco-Sharp-Regular-trial.ttf);
+  src: url(./Coco-Sharp-Bold-Italic-trial.ttf);
+  src: url(./Coco-Sharp-Bold-trial.ttf);
+  src: url(./Coco-Sharp-Extrabold-Italic-trial.ttf);
+  src: url(./Coco-Sharp-Extrabold-trial.ttf);
+  src: url(./Coco-Sharp-Extralight-Italic-trial.ttf);
+  src: url(./Coco-Sharp-Extralight-trial.ttf);
+  src: url(./Coco-Sharp-Heavy-Italic-trial.ttf);
+  src: url(./Coco-Sharp-Heavy-trial.ttf);
+  src: url(./Coco-Sharp-Italic-trial.ttf);
+  src: url(./Coco-Sharp-Light-Italic-trial.ttf);
+  src: url(./Coco-Sharp-Light-trial.ttf);
+}
+
+@font-face {
+  font-family: CocoSharp-Bold;
+  src: url(./Coco-Sharp-Regular-trial.ttf);
+  src: url(./Coco-Sharp-Bold-Italic-trial.ttf);
+  src: url(./Coco-Sharp-Bold-trial.ttf);
+  src: url(./Coco-Sharp-Extrabold-Italic-trial.ttf);
+  src: url(./Coco-Sharp-Extrabold-trial.ttf);
+  src: url(./Coco-Sharp-Extralight-Italic-trial.ttf);
+  src: url(./Coco-Sharp-Extralight-trial.ttf);
+  src: url(./Coco-Sharp-Heavy-Italic-trial.ttf);
+  src: url(./Coco-Sharp-Heavy-trial.ttf);
+  src: url(./Coco-Sharp-Italic-trial.ttf);
+  src: url(./Coco-Sharp-Light-Italic-trial.ttf);
+  src: url(./Coco-Sharp-Light-trial.ttf);
+}
+
+.carzin {
+  font-size: 36px;
+  height: 52px;
+  font-weight: 900;
+  color: #fe5b3e;
+  font-family: "CocoSharp-Regular";
+}
+
+.baran {
+  font-size: 36px;
+  height: 52px;
+  font-weight: 800;
+  color: #fe5b3e;
+  font-family: "CocoSharp-Regular";
+}
+
+.nav-list {
+  color: #303030;
+  font-family: "CocoSharp-Regular";
+  font-size: 16px;
+  font-weight: 600;
+  opacity: 0.8px;
+}
+
+.btn-nav {
+  width: 111px;
+  height: 39px;
+  border: 1px solid #fe5b3e;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.btn-nav-2 {
+  width: 111px;
+  height: 39px;
+  background-color: #fe5b3e;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.log {
+  color: #fe5b3e;
+  font-family: "CocoSharp-Regular";
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.log-2 {
+  color: #fff;
+  font-family: "CocoSharp-Regular";
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.menu {
+  margin-left: 120px;
+}
+
+.local {
+  font-size: 86px;
+  font-weight: bolder !important;
+  margin-top: 50px;
+  line-height: 110%;
+  margin-left: 20px;
+}
+
+.tesla {
+  width: 900px;
+  margin-left: 30px;
+  border-radius: 10px;
+  margin-top: 50px;
+  height: 550px;
+}
+
+.personalized-service {
+  color: #fe5b3e;
+  font-weight: 800;
+}
+
+.lorem {
+  margin-left: 20px;
+  font-size: 19px;
+}
+
+.tesla-mobile {
+  border-radius: 10px;
+  width: 355px;
+  margin-left: 10px;
+}
+
+.local-mobile {
+  font-family: "CocoSharp-Extrabold";
+  font-size: 48px;
+  font-weight: 900;
+  margin-left: 20px;
+  margin-top: 50px;
+}
+
+.lorem-mobile {
+  margin-left: 20px;
+}
+
+.blogs {
+  font-family: "CocoSharp-Extrabold";
+  font-size: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+  font-weight: 700;
+}
+
+.tyre {
+  width: 100px;
+  height: 80px;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.tyre-mobile {
+  width: 150px;
+  height: 80px;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.tyre-mobile-2 {
+  width: 112px;
+  height: 80px;
+  border-radius: 10px;
+  margin-left: 20px;
+  z-index: 40;
+  margin-top: 20px;
+}
+
+.tesla-1 {
+  font-size: 16px;
+  font-family: "CocoSharp-Regular";
+  color: #303030;
+  font-weight: 800;
+  margin-top: 20px;
+}
+
+.model {
+  font-size: 10px;
+  font-family: "CocoSharp-Bold";
+  margin-top: 3px;
+  font-weight: 900;
+}
+
+.model-mobile {
+  font-size: 16px;
+  margin-top: 3px;
+  font-weight: 600;
+}
+
+.star {
+  width: 30px;
+  height: 32px;
+  margin-left: -10px;
+}
+
+.rating {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.work {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "CocoSharp-Regular";
+  opacity: 0.6;
+  color: #303030;
+  margin-left: 200px;
+  margin-top: 70px;
+}
+
+.work-1 {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "CocoSharp-Regular";
+  opacity: 0.6;
+  color: #303030;
+  margin-left: 220px;
+}
+
+.easy {
+  font-size: 66px;
+  font-family: "CocoSharp-Extrabold";
+  font-weight: 800;
+  margin-left: 200px;
+}
+
+.tour {
+  color: #fe5b3e;
+}
+
+.all-excpt {
+  width: 349px;
+  height: 365px;
+  border-radius: 24px;
+  background-color: #f3f5f7;
+  margin-left: 190px;
+  margin-top: 70px;
+  padding: 5px;
+}
+
+.all-excpt-2 {
+  width: 349px;
+  height: 365px;
+  border-radius: 24px;
+  background-color: #f3f5f7;
+  margin-left: 50px;
+  margin-top: 70px;
+  padding: 5px;
+}
+
+.all-excpt-3 {
+  width: 349px;
+  height: 365px;
+  border-radius: 24px;
+  background-color: #f3f5f7;
+  margin-left: 50px;
+  margin-top: 70px;
+  padding: 5px;
+}
+
+.circle {
+  border-radius: 100%;
+  background-color: #fe5b3e;
+  width: 128px;
+  height: 128px;
+  margin-left: 100px;
+  margin-top: 50px;
+  padding: 50px;
+}
+
+.map {
+  width: 44px;
+}
+
+.location {
+  font-size: 20px;
+  font-weight: 800;
+  font-family: "CocoSharp-Bold";
+  color: #303030;
+  margin-top: 30px;
+  margin-left: 70px;
+}
+
+.location-1 {
+  font-size: 20px;
+  font-weight: 800;
+  font-family: "CocoSharp-Bold";
+  color: #303030;
+  margin-top: 30px;
+  margin-left: 99px;
+}
+
+.amet {
+  font-size: 16px;
+  font-family: "CocoSharp-Regular";
+  font-weight: 700;
+  text-align: center;
+  margin-top: 10px;
+  opacity: 0.6;
+  color: #303030;
+}
+
+.work-mobile {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "CocoSharp-Regular";
+  opacity: 0.6;
+  color: #303030;
+  margin-top: 100px;
+}
+
+.easy-mobile {
+  font-size: 36px;
+  font-family: "CocoSharp-Extrabold";
+  font-weight: bolder;
+  color: #303030;
+  margin-top: 10px;
+}
+
+.work-1-mobile {
+  font-size: 16px;
+  font-weight: 800;
+  font-family: "CocoSharp-Regular";
+  opacity: 0.6;
+  color: #303030;
+  margin-top: 10px;
+}
+
+.all-excpt-mobile {
+  width: 349px;
+  height: 365px;
+  border-radius: 24px;
+  background-color: #f3f5f7;
+  margin-left: 10px;
+  margin-top: 50px;
+  padding: 5px;
+}
+
+.all-excpt-mobile-2 {
+  width: 349px;
+  height: 365px;
+  border-radius: 24px;
+  background-color: #f3f5f7;
+  margin-left: 15px;
+  margin-top: 20px;
+  padding: 5px;
+}
+
+.all-excpt-mobile-3 {
+  width: 349px;
+  height: 365px;
+  border-radius: 24px;
+  background-color: #f3f5f7;
+  margin-left: 15px;
+  margin-top: 20px;
+  padding: 5px;
+}
+
+.tesla-front {
+  margin-top: 150px;
+  width: 800px;
+}
+
+.best {
+  font-size: 20px;
+  color: #303030;
+  opacity: 60%;
+  font-family: "CocoSharp-Regular";
+}
+
+.expert {
+  font-size: 66px;
+  color: #303030;
+  font-weight: 900 !important;
+  line-height: 76px;
+}
+
+.ex {
+  color: #fe5b3e;
+}
+
+.ispum {
+  font-size: 16px;
+  font-family: CocoSharp-Regular;
+  opacity: 80%;
+  color: #303030;
+  margin-top: 20px;
+}
+
+.ispum-1 {
+  font-size: 16px;
+  font-family: CocoSharp-Regular;
+  opacity: 80%;
+  color: #303030;
+  margin-top: 10px;
+}
+
+.budget {
+  font-size: 20px;
+  color: #303030;
+  font-weight: 800;
+  margin-left: 20px;
+}
+
+.dolor {
+  font-size: 16px;
+  font-family: CocoSharp-Regular;
+  opacity: 80%;
+  color: #303030;
+  margin-top: 20px;
+  margin-left: 47px;
+}
+
+.tick {
+  width: 24px;
+  height: 24px;
+}
+
+.let {
+  color: #fe5b3e;
+  font-family: "CocoSharp-Regular";
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.best-mobile {
+  font-size: 20px;
+  color: #303030;
+  opacity: 60%;
+  font-family: "CocoSharp-Regular";
+  margin-left: 32px;
+  margin-top: 50px;
+}
+
+.expert-mobile {
+  font-size: 36px;
+  color: #303030;
+  font-weight: 900 !important;
+  margin-left: 32px;
+}
+
+.ispum-mobile {
+  font-size: 16px;
+  opacity: 80%;
+  color: #303030;
+  margin-top: 20px;
+  margin-left: 32px;
+}
+
+.tick-mobile {
+  width: 24px;
+  height: 24px;
+  margin-left: 32px;
+}
+
+.budget-mobile {
+  font-size: 20px;
+  color: #303030;
+  font-weight: 800;
+  margin-left: 10px;
+}
+
+.dolor-mobile {
+  font-size: 16px;
+  font-family: CocoSharp-Regular;
+  opacity: 80%;
+  color: #303030;
+  margin-top: 20px;
+  margin-left: 70px;
+}
+
+.group {
+  width: 100%;
+}
+
+.option {
+  font-size: 20px;
+  color: #303030;
+  opacity: 60%;
+  font-family: "CocoSharp-Regular";
+  margin-left: 110px;
+  margin-top: 220px;
+}
+
+.drive {
+  font-size: 66px;
+  color: #303030;
+  font-weight: 900 !important;
+  line-height: 76px;
+  margin-left: 110px;
+}
+
+.our {
+  color: #fe5b3e;
+}
+
+.cursus {
+  font-size: 16px;
+  font-family: CocoSharp-Regular;
+  opacity: 80%;
+  color: #303030;
+  margin-top: 20px;
+  margin-left: 110px;
+}
+
+.cursus-1 {
+  font-size: 16px;
+  font-family: CocoSharp-Regular;
+  opacity: 80%;
+  color: #303030;
+  margin-top: 10px;
+  margin-left: 110px;
+}
+
+.car-care {
+  width: 111px;
+  height: 39px;
+  border: 1px solid #fe5b3e;
+  border-radius: 10px;
+  padding: 5px;
+  margin-left: 110px;
+  margin-top: 30px;
+}
+
+.doller {
+  width: 180px;
+  height: 180px;
+  border-radius: 14px;
+  background-color: #f3f5f7;
+  padding: 5px;
+}
+
+.dollar {
+  margin-left: 65px;
+  margin-top: 30px;
+}
+
+.competitive {
+  font-size: 16px;
+  text-align: center;
+  color: #303030;
+  font-weight: bolder !important;
+  margin-top: 20px;
+}
+
+.all-cart {
+  margin-top: 220px;
+  margin-left: 250px;
+}
+
+.option-mobile {
+  font-size: 20px;
+  color: #303030;
+  opacity: 60%;
+  font-family: "CocoSharp-Regular";
+  margin-left: 32px;
+  margin-top: 150px;
+}
+
+.drive-mobile {
+  font-size: 30px;
+  color: #303030;
+  font-weight: 900 !important;
+  margin-left: 32px;
+}
+
+.cursus-mobile {
+  font-size: 16px;
+  font-family: CocoSharp-Regular;
+  opacity: 80%;
+  color: #303030;
+  margin-top: 20px;
+  margin-left: 32px;
+  line-height: 24px;
+}
+
+.car-care-mobile {
+  width: 111px;
+  height: 39px;
+  border: 1px solid #fe5b3e;
+  border-radius: 10px;
+  padding: 5px;
+  margin-left: 32px;
+  margin-top: 30px;
+}
+
+.doller-mobile {
+  width: 150px;
+  height: 150px;
+  border-radius: 14px;
+  background-color: #f3f5f7;
+  padding: 5px;
+  margin-left: 32px;
+  margin-top: 30px;
+}
+
+.dollar-mobile {
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.competitive-mobile {
+  font-size: 16px;
+  text-align: center;
+  color: #303030;
+  font-weight: bolder !important;
+  margin-top: 10px;
+}
+
+.doller-mobile-1 {
+  width: 150px;
+  height: 150px;
+  border-radius: 14px;
+  background-color: #f3f5f7;
+  padding: 5px;
+  margin-top: 30px;
+}
+
+.sort {
+  width: 1240px;
+  height: 1240px;
+  background-color: #f3f5f7;
+  margin-left: 150px;
+  border-radius: 30px;
+  margin-top: 200px;
+}
+
+.sort-cars {
+  font-size: 20px;
+  color: #303030;
+  opacity: 60%;
+  font-family: "CocoSharp-Regular";
+  margin-left: 56px;
+  margin-top: 90px;
+}
+
+.book {
+  font-size: 56px;
+  color: #303030;
+  font-weight: 900 !important;
+  line-height: 76px;
+  margin-left: 56px;
+}
+
+.our-1 {
+  color: #fe5b3e;
+}
+
+.sort-eu {
+  font-size: 20px;
+  color: #303030;
+  opacity: 80%;
+  font-family: "CocoSharp-Regular";
+  margin-left: 56px;
+  margin-top: 10px;
+  font-weight: 800;
+}
+
+.vector {
+  margin-top: 30px;
+  margin-left: 56px;
+}
+
+.featured {
+  width: 101px;
+  height: 35px;
+  border: 1px solid #ced3d7;
+  border-radius: 50px;
+  padding: 5px;
+  margin-left: 56px;
+  margin-top: 30px;
+}
+
+.featured-1 {
+  width: 101px;
+  height: 35px;
+  border: 1px solid #ced3d7;
+  border-radius: 50px;
+  padding: 5px;
+  margin-top: 30px;
+}
+
+.featured-2 {
+  width: 101px;
+  height: 35px;
+  background-color: #fe5b3e;
+  border-radius: 50px;
+  padding: 5px;
+  margin-top: 30px;
+}
+
+.feat {
+  color: #303030;
+  opacity: 60%;
+  font-family: "CocoSharp-Regular";
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.feat-1 {
+  color: #ffffff;
+  font-family: "CocoSharp-Regular";
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.featured-3 {
+  width: 182px;
+  height: 60px;
+  background-color: #ffffff;
+  border-radius: 14px;
+  margin-top: 30px;
+  margin-left: 470px;
+  margin-top: 20px;
+}
+
+.feat-2 {
+  color: #303030;
+  font-family: "CocoSharp-Regular";
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.arrow {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+
+.bmw {
+  width: 261px;
+  height: 296px;
+  margin-left: 56px;
+  margin-top: 50px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+.img {
+  width: 210px;
+  height: 98px;
+  margin-top: 40px;
+  margin-left: 17px;
+}
+
+.m3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #303030;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.mw {
+  font-size: 16px;
+  opacity: 60%;
+  color: #303030;
+  font-family: CocoSharp-Regular;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.amount {
+  font-size: 16px;
+  font-weight: 800;
+  color: #fe5b3e;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.star-2 {
+  width: 30px;
+  height: 32px;
+  margin-top: 5px;
+  margin-left: 100px;
+}
+
+.rating-2 {
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 13px;
+}
+
+.bmw-1 {
+  width: 261px;
+  height: 296px;
+  margin-left: 30px;
+  margin-top: 50px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+.page {
+  width: 130px;
+  height: 39px;
+  background-color: #fe5b3e;
+  border-radius: 10px;
+  padding: 5px;
+  margin-top: 50px;
+  margin-left: 56px;
+}
+
+.new {
+  color: #ffffff;
+  font-family: "CocoSharp-Regular";
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.pages {
+  color: #303030;
+  opacity: 80%;
+  font-family: "CocoSharp-Regular";
+  font-size: 16px;
+  font-weight: 800;
+  margin-top: 10px;
+}
+
+.o1 {
+  width: 80px;
+  height: 40px;
+  border: 1px solid #ced3d7;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.one {
+  color: #303030;
+  opacity: 60%;
+  font-size: 16px;
+}
+
+.pages-1 {
+  color: #303030;
+  opacity: 80%;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.right {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.all-btn {
+  margin-top: 50px;
+  margin-left: 700px;
+}
+
+.sort-mobile {
+  width: 315px;
+  height: 903px;
+  background-color: #f3f5f7;
+  padding: 5px;
+  border-radius: 30px;
+  margin-left: 32px;
+  margin-top: 90px;
+}
+
+.sort-cars-mobile {
+  font-size: 20px;
+  color: #303030;
+  opacity: 60%;
+  font-family: "CocoSharp-Regular";
+  margin-left: 30px;
+  margin-top: 70px;
+}
+
+.book-mobile {
+  font-size: 35px;
+  color: #303030;
+  font-weight: 900 !important;
+  margin-left: 30px;
+}
+
+.sort-eu-mobile {
+  font-size: 20px;
+  color: #303030;
+  opacity: 80%;
+  font-family: "CocoSharp-Regular";
+  margin-left: 30px;
+  margin-top: 10px;
+  font-weight: 800;
+}
+
+.group-all {
+  width: 60px;
+  height: 60px;
+  margin-left: 30px;
+}
+
+.group-all-1 {
+  width: 60px;
+  height: 60px;
+}
+
+.bmw-mobile {
+  width: 261px;
+  height: 296px;
+  margin-left: 20px;
+  margin-top: 50px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+.all-btn-mobile {
+  margin-top: 100px;
+  margin-left: 20px;
+}
+
+.page-mobile {
+  width: 130px;
+  height: 39px;
+  background-color: #fe5b3e;
+  border-radius: 10px;
+  padding: 5px;
+  margin-top: 30px;
+  margin-left: 56px;
+}
+
+.rectan {
+  margin-top: 150px;
+}
+
+.we-work {
+  font-size: 66px;
+  font-weight: 700;
+  margin-left: 60px;
+  color: #ffffff;
+  line-height: 76px;
+}
+
+.memorable {
+  color: #fe5b3e;
+}
+
+.video {
+  width: 165px;
+  height: 39px;
+  background-color: #fe5b3e;
+  border-radius: 10px;
+  padding: 5px;
+  margin-top: 30px;
+  margin-left: 60px;
+}
+
+.all-lore {
+  text-align: center;
+  margin-top: -450px;
+}
+
+.work-1 {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "CocoSharp-Regular";
+  opacity: 0.6;
+  color: #ffffff;
+  margin-left: 70px;
+  margin-top: 20px;
+}
+
+.all-mob {
+  margin-top: 50px;
+}
+
+footer {
+  background-color: #f3f5f7;
+}
+
+.ready-footer {
+  font-size: 36px;
+  color: #303030;
+  line-height: 46px;
+  font-style: italic;
+  margin-left: 185px;
+  font-weight: bolder !important;
+}
+
+.started {
+  width: 139px;
+  height: 39px;
+  background-color: #fe5b3e;
+  border-radius: 10px;
+  padding: 5px;
+  margin-top: 30px;
+  margin-left: 210px;
+}
+
+.new-footer {
+  color: #ffffff;
+  font-family: "CocoSharp-Regular";
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.terms {
+  font-size: 15px;
+  font-weight: 500;
+  color: #303030;
+  margin-left: 210px;
+}
+
+.terms-1 {
+  font-size: 15px;
+  font-weight: 500;
+  color: #303030;
+}
+
+.social {
+  width: 100px;
+  height: 19px;
+  margin-left: 800px;
+}
+
+.list-footer-1 {
+  font-size: 17px;
+  font-weight: 800;
+  color: #fe5b3e;
+  font-family: CocoSharp-Bold;
+}
+
+.list-footer {
+  font-size: 15px;
+  color: #303030;
+  opacity: 60%;
+  font-family: CocoSharp-Bold;
+  font-weight: 600;
+  display: block;
+}
+
+.ready-footer-mob {
+  font-size: 36px;
+  color: #303030;
+  line-height: 46px;
+  margin-top: 50px;
+  margin-left: 32px;
+  font-weight: bolder !important;
+}
+
+.started-mob {
+  width: 139px;
+  height: 39px;
+  background-color: #fe5b3e;
+  border-radius: 10px;
+  padding: 5px;
+  margin-top: 30px;
+  margin-left: 32px;
+}
+
+.footer-mob {
+  width: 375px;
+}
+
+.list-footer-1-mobile {
+  font-size: 17px;
+  font-weight: bolder !important;
+  color: #fe5b3e;
+  font-family: CocoSharp-Bold;
+}
+
+.list-footer-mobile {
+  font-size: 17px;
+  font-weight: 800;
+  color: #fe5b3e;
+  font-family: CocoSharp-Bold;
+}
+
+.terms-mobile {
+  font-size: 15px;
+  font-weight: 500;
+  color: #303030;
+  margin-left: 40px;
+}
+
+.terms-1-mobile {
+  font-size: 15px;
+  font-weight: 500;
+  color: #303030;
+}
+
+.social-mobile {
+  width: 120px;
+  height: 18px;
+  margin-left: 40px;
+}
+

@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="back-nav">
+      <div class="Nav-nav">
+        <nav class="relative background container mx-auto p-6">
+          <!-- Flex container -->
+          <div class="flex items-center justify-between">
+            <!-- Logo -->
+            <div class="hidden md:flex">
+              <h1 class="carzin">Carzin</h1>
+            </div>
+            <!-- Menu Items -->
+            <div class="md:hidden sm:flex">
+              <div class="flex">
+                <p class="baran mt-1 ml-5">Carzin</p>
+                <img class="menu" src="./img/List (1).svg" alt="" />
+              </div>
+            </div>
+            <div class="hidden md:flex nav-bg">
+              <div class="hidden md:flex">
+                <div class="a-href space-x-6 mt-2">
+                  <a href="#" class="nav-list">Rent</a>
+                  <a href="#" class="nav-list">Share</a>
+                  <a href="#" class="nav-list">Ride</a>
+                  <a href="#" class="nav-list">Service</a>
+                </div>
+                <div class="flex">
+                  <button class="px-6 py-2 btn-nav focus:outline-none ml-10">
+                    <span class="log">Sign Up</span>
+                  </button>
+                  <button class="px-6 py-2 btn-nav-2 focus:outline-none ml-10">
+                    <span class="log-2">Sign In</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <!-- <div class="container"> -->
+    <div class="hidden md:flex">
+      <div class="all-per">
+        <div class="block">
+          <h1 class="local">
+            Local best and
+            <span class="personalized-service">personalized <br />service</span>
+          </h1>
+          <p class="lorem">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. At sit
+            eveniet sequi a quasi, iste autem beatae nihil <br />eum voluptatem
+            dolor. Minima cum repudiandae laudantium voluptates. Exercitationem
+            quae sequi dolore!
+          </p>
+        </div>
+
+        <p class="blogs">Blogs Recommendations</p>
+        <div class="flex space-x-10">
+          <div class="flex">
+            <img
+              class="tyre"
+              src="./img/tesla-model-s-tire-scaled.jpg"
+              alt=""
+            />
+            <div class="block ml-3">
+              <p class="tesla-1">Tesla</p>
+              <p class="model">Model S</p>
+              <div class="flex">
+                <img class="star" src="./img/star.png" alt="" />
+                <p class="rating mt-2">4.9</p>
+              </div>
+            </div>
+          </div>
+          <div class="flex">
+            <img class="tyre" src="./img/tesla-interior-x.jpg" alt="" />
+            <div class="block ml-3">
+              <p class="tesla-1">Tesla</p>
+              <p class="model">Model x</p>
+              <div class="flex">
+                <img class="star" src="./img/star.png" alt="" />
+                <p class="rating mt-2">4.9</p>
+              </div>
+            </div>
+          </div>
+          <div class="flex">
+            <img class="tyre" src="./img/tesla model x solar roof.jpg" alt="" />
+            <div class="block ml-3">
+              <p class="tesla-1">Tesla</p>
+              <p class="model">Solar roof</p>
+              <div class="flex">
+                <img class="star" src="./img/star.png" alt="" />
+                <p class="rating mt-2">4.9</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img class="tesla" src="./img/tesla.avif" alt="" />
+    </div>
+
+    <div class="md:hidden sm:flex">
+      <img class="tesla-mobile" src="./img/tesla.avif" alt="" />
+      <div class="all-per">
+        <h1 class="local-mobile">
+          Local best and
+          <span class="personalized-service"
+            ><br />personalized <br />service</span
+          >
+        </h1>
+        <p class="lorem-mobile">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. At sit
+          eveniet sequi a quasi, iste autem beatae nihil eum voluptatem dolor.
+          Minima cum repudiandae laudantium voluptates. Exercitationem quae
+          sequi dolore!
+        </p>
+      </div>
+    </div>
+
+    <div class="md:hidden sm:flex">
+      <p class="blogs">Blogs Recommendations</p>
+      <div class="flex">
+        <div class="flex">
+          <img
+            class="tyre-mobile"
+            src="./img/tesla-model-s-tire-scaled.jpg"
+            alt=""
+          />
+          <div class="block ml-3">
+            <p class="tesla-1">Tesla</p>
+            <p class="model-mobile">Model S</p>
+            <div class="flex">
+              <img class="star" src="./img/star.png" alt="" />
+              <p class="rating mt-2">4.9</p>
+            </div>
+          </div>
+        </div>
+
+        <img class="tyre-mobile-2" src="./img/tesla-interior-x.jpg" alt="" />
+      </div>
+    </div>
+
+    <div class="hidden md:flex">
+      <div>
+        <div class="text-center">
+          <h1 class="work">How it works</h1>
+          <p class="easy">
+            your friends to make <br />
+            your <span class="tour">tour easy</span>
+          </p>
+          <p class="work-1">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus
+            libero, auctor <br />
+            imperdiet eu malesuada eu id cursus ullamcorper. Sed quisque
+          </p>
+        </div>
+        <div class="flex">
+          <div class="all-excpt">
+            <div class="block">
+              <div class="circle">
+                <img class="map" src="./img/map-pin.svg" alt="" />
+              </div>
+              <p class="location">Choose a Location</p>
+              <p class="amet">
+                Lorem ipsum dolor sit amet, consectetur adipiscing
+              </p>
+            </div>
+          </div>
+          <div class="all-excpt-2">
+            <div class="block">
+              <div class="circle">
+                <img class="map" src="./img/folder-plus.svg" alt="" />
+              </div>
+              <p class="location-1">Pick-up Date</p>
+              <p class="amet">
+                Lorem ipsum dolor sit amet, consectetur adipiscing
+              </p>
+            </div>
+          </div>
+          <div class="all-excpt-3">
+            <div class="block">
+              <div class="circle">
+                <img class="map" src="./img/smart-car.svg" alt="" />
+              </div>
+              <p class="location-1">Book your car</p>
+              <p class="amet">
+                Lorem ipsum dolor sit amet, consectetur adipiscing
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="md:hidden sm:flex">
+      <div class="text-center">
+        <h1 class="work-mobile">How it works</h1>
+        <p class="easy-mobile">
+          your friends to <br />
+          make your <span class="tour">tour <br />easy</span>
+        </p>
+        <p class="work-1-mobile">
+          Lorem ipsum dolor sit amet, <br />
+          consectetur adipiscing elit. Netus <br />
+          libero, auctor imperdiet eu malesuada <br />
+          eu id cursus ullamcorper. Sed quisque
+        </p>
+      </div>
+
+      <div class="all-excpt-mobile">
+        <div class="block">
+          <div class="circle">
+            <img class="map" src="./img/map-pin.svg" alt="" />
+          </div>
+          <p class="location">Choose a Location</p>
+          <p class="amet">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+        </div>
+      </div>
+      <div class="all-excpt-mobile-2">
+        <div class="block">
+          <div class="circle">
+            <img class="map" src="./img/folder-plus.svg" alt="" />
+          </div>
+          <p class="location-1">Pick-up Date</p>
+          <p class="amet">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+        </div>
+      </div>
+
+      <div class="all-excpt-mobile-3">
+        <div class="block">
+          <div class="circle">
+            <img class="map" src="./img/smart-car.svg" alt="" />
+          </div>
+          <p class="location-1">Book your car</p>
+          <p class="amet">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="hidden md:flex">
+      <div class="flex">
+        <img class="tesla-front" src="./img/Group 4189.png" alt="" />
+        <div class="block ml-36 mt-40">
+          <p class="best">BEST SERVICE</p>
+          <h1 class="expert">
+            We <span class="ex">expert</span> in <br />
+            car rental
+          </h1>
+          <p class="ispum">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />
+            Netus libero, auctor imperdiet eu malesuada eu id <br />
+            cursus ullamcorper. Sed quisque
+          </p>
+          <p class="ispum-1">
+            auctor imperdiet eu malesuada eu id cursus <br />
+            ullamcorper. Sed quisque
+          </p>
+          <div class="block">
+            <div class="flex mt-8">
+              <img class="tick" src="./img/tick-square.png" alt="" />
+              <p class="budget">Deals for every budget</p>
+            </div>
+            <p class="dolor">
+              Lorem ipsum dolor sit amet, consectetur adipiscing <br />
+              elit. Ac nisl, ut felis malesuada urna. Turpis <br />
+              turpis a eu vitae nec leo.
+            </p>
+          </div>
+          <div class="block">
+            <div class="flex mt-8">
+              <img class="tick" src="./img/tick-square.png" alt="" />
+              <p class="budget">Best price guaranteed</p>
+            </div>
+            <p class="dolor">
+              Lorem ipsum dolor sit amet, consectetur adipiscing <br />
+              elit. Ac nisl, ut felis malesuada urna. Turpis <br />
+              turpis a eu vitae nec leo.
+            </p>
+          </div>
+          <div class="block">
+            <div class="flex mt-8">
+              <img class="tick" src="./img/tick-square.png" alt="" />
+              <p class="budget">Support 24/7</p>
+            </div>
+            <p class="dolor">
+              Lorem ipsum dolor sit amet, consectetur adipiscing <br />
+              elit. Ac nisl, ut felis malesuada urna. Turpis <br />
+              turpis a eu vitae nec leo.
+            </p>
+          </div>
+          <button class="px-6 py-2 btn-nav focus:outline-none mt-10">
+            <span class="let">Let's try</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="md:hidden sm:flex">
+      <div>
+        <p class="best-mobile">BEST SERVICE</p>
+        <h1 class="expert-mobile">
+          We <span class="ex">expert</span> in <br />
+          car rental
+        </h1>
+        <p class="ispum-mobile">
+          Lorem ipsum dolor sit amet, <br />
+          consectetur adipiscing elit. Netus <br />
+          libero, auctor imperdiet eu malesuada <br />
+          eu id cursus ullamcorper. Sed quisque
+        </p>
+        <p class="ispum-mobile">
+          auctor imperdiet eu malesuada eu id <br />cursus ullamcorper. Sed
+          quisque
+        </p>
+        <div class="block">
+          <div class="flex mt-8">
+            <img class="tick-mobile" src="./img/tick-square.png" alt="" />
+            <p class="budget-mobile">Deals for every budget</p>
+          </div>
+          <p class="dolor-mobile">
+            Lorem ipsum dolor sit amet, <br />
+            consectetur adipiscing elit. Ac <br />
+            nisl, ut felis malesuada urna. <br />
+            Turpis turpis a eu vitae nec leo.
+          </p>
+        </div>
+        <div class="block">
+          <div class="flex mt-8">
+            <img class="tick-mobile" src="./img/tick-square.png" alt="" />
+            <p class="budget-mobile">Best price guaranteed</p>
+          </div>
+          <p class="dolor-mobile">
+            Lorem ipsum dolor sit amet, <br />
+            consectetur adipiscing elit. Ac <br />
+            nisl, ut felis malesuada urna. <br />
+            Turpis turpis a eu vitae nec leo.
+          </p>
+        </div>
+        <div class="block">
+          <div class="flex mt-8">
+            <img class="tick-mobile" src="./img/tick-square.png" alt="" />
+            <p class="budget-mobile">Support 24/7</p>
+          </div>
+          <p class="dolor-mobile">
+            Lorem ipsum dolor sit amet, <br />
+            consectetur adipiscing elit. Ac <br />
+            nisl, ut felis malesuada urna. <br />
+            Turpis turpis a eu vitae nec leo.
+          </p>
+        </div>
+        <button class="px-6 py-2 btn-nav focus:outline-none mt-10 ml-6">
+          <span class="let">Let's try</span>
+        </button>
+
+        <img class="mt-14 group" src="./img/Group 4189 (1).png" alt="" />
+      </div>
+    </div>
+
+    <div class="hidden md:flex">
+      <div>
+        <div class="flex">
+          <div class="block">
+            <p class="option">BEST SERVICE</p>
+            <h1 class="drive">
+              your drive <br />
+              with <span class="our">our care</span>
+            </h1>
+            <p class="cursus">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />
+              Netus libero, auctor imperdiet eu malesuada eu id <br />
+              cursus ullamcorper. Sed quisque
+            </p>
+            <p class="cursus-1">
+              auctor imperdiet eu malesuada eu id cursus <br />
+              ullamcorper. Sed quisque
+            </p>
+            <button class="px-6 py-2 car-care focus:outline-none">
+              <span class="let">Let's try</span>
+            </button>
+          </div>
+          <div class="block space-y-6 all-cart">
+            <div class="flex space-x-5">
+              <div class="doller">
+                <img class="dollar" src="./img/dollar-circle.png" alt="" />
+                <p class="competitive">
+                  Competitive <br />
+                  Pricing
+                </p>
+              </div>
+              <div class="doller">
+                <img class="dollar" src="./img/smart-car.png" alt="" />
+                <p class="competitive">
+                  Easier Rent on <br />
+                  your budget
+                </p>
+              </div>
+              <div class="doller">
+                <img class="dollar" src="./img/receipt-2.png" alt="" />
+                <p class="competitive">
+                  Most Flexible <br />
+                  payment plans
+                </p>
+              </div>
+            </div>
+            <div class="flex space-x-5">
+              <div class="doller">
+                <img class="dollar" src="./img/medal-star.png" alt="" />
+                <p class="competitive">
+                  The best <br />
+                  extended auto <br />
+                  warranties
+                </p>
+              </div>
+              <div class="doller">
+                <img class="dollar" src="./img/tag-user.png" alt="" />
+                <p class="competitive">
+                  Roadside <br />
+                  Assistance 24/7
+                </p>
+              </div>
+              <div class="doller">
+                <img class="dollar" src="./img/layer.png" alt="" />
+                <p class="competitive">
+                  Your Choice of <br />
+                  mechanic
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="md:hidden sm:flex">
+      <div class="block">
+        <p class="option-mobile">BEST SERVICE</p>
+        <h1 class="drive-mobile">
+          your drive <br />
+          with <span class="our">our care</span>
+        </h1>
+        <p class="cursus-mobile">
+          Lorem ipsum dolor sit amet, <br />
+          consectetur adipiscing elit. Netus <br />
+          libero, auctor imperdiet eu malesuada <br />
+          eu id cursus ullamcorper. Sed quisque
+        </p>
+        <p class="cursus-mobile">
+          auctor imperdiet eu malesuada eu id <br />
+          cursus ullamcorper. Sed quisque
+        </p>
+        <button class="px-6 py-2 car-care-mobile focus:outline-none">
+          <span class="let">Let's try</span>
+        </button>
+
+        <div class="flex space-x-5">
+          <div class="doller-mobile">
+            <img class="dollar-mobile" src="./img/dollar-circle.png" alt="" />
+            <p class="competitive-mobile">
+              Competitive <br />
+              Pricing
+            </p>
+          </div>
+          <div class="doller-mobile-1">
+            <img class="dollar-mobile" src="./img/smart-car.png" alt="" />
+            <p class="competitive-mobile">
+              Easier Rent on <br />
+              your budget
+            </p>
+          </div>
+        </div>
+
+        <div class="flex space-x-5">
+          <div class="doller-mobile">
+            <img class="dollar-mobile" src="./img/medal-star.png" alt="" />
+            <p class="competitive-mobile">
+              Competitive <br />
+              Pricing
+            </p>
+          </div>
+          <div class="doller-mobile-1">
+            <img class="dollar-mobile" src="./img/tag-user.png" alt="" />
+            <p class="competitive-mobile">
+              Easier Rent on <br />
+              your budget
+            </p>
+          </div>
+        </div>
+
+        <div class="flex space-x-5">
+          <div class="doller-mobile">
+            <img class="dollar-mobile" src="./img/layer.png" alt="" />
+            <p class="competitive-mobile">
+              Competitive <br />
+              Pricing
+            </p>
+          </div>
+          <div class="doller-mobile-1">
+            <img class="dollar-mobile" src="./img/receipt-2.png" alt="" />
+            <p class="competitive-mobile">
+              Easier Rent on <br />
+              your budget
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hidden md:flex">
+      <div class="sort">
+        <p class="sort-cars">CARS</p>
+        <p class="book">Book Your car <span class="our-1">today!</span></p>
+        <p class="sort-eu">auctor imperdiet eu malesuada eu id</p>
+        <img class="vector" src="./img/Vector 44.png" alt="" />
+
+        <div class="flex mt-10">
+          <div class="space-x-5">
+            <button class="px-6 py-2 featured focus:outline-none">
+              <span class="feat">Featured</span>
+            </button>
+            <button class="px-6 py-2 featured-1 focus:outline-none">
+              <span class="feat">On sale</span>
+            </button>
+            <button class="px-6 py-2 featured-2 focus:outline-none">
+              <span class="feat-1">Good Rate</span>
+            </button>
+            <button class="px-6 py-2 featured-1 focus:outline-none">
+              <span class="feat">Sub nav</span>
+            </button>
+          </div>
+          <button class="px-6 py-2 featured-3 focus:outline-none">
+            <span class="feat-2"
+              ><div class="flex">
+                Recently Added
+                <img
+                  class="arrow"
+                  src="./img/arrow-circle-down.png"
+                  alt=""
+                /></div
+            ></span>
+          </button>
+        </div>
+
+        <div class="flex">
+          <div class="bmw">
+            <img class="img" src="./img/image 135.png" alt="" />
+            <p class="m3">M3 Competition</p>
+            <p class="mw">BMW</p>
+            <div class="flex">
+              <p class="amount">$240.00</p>
+              <div class="flex">
+                <img class="star-2" src="./img/star.png" alt="" />
+                <p class="rating-2">4.9</p>
+              </div>
+            </div>
+          </div>
+          <div class="bmw-1">
+            <img class="img" src="./img/image 136.png" alt="" />
+            <p class="m3">M135I Xdrive</p>
+            <p class="mw">BMW</p>
+            <div class="flex">
+              <p class="amount">$240.00</p>
+              <div class="flex">
+                <img class="star-2" src="./img/star.png" alt="" />
+                <p class="rating-2">4.9</p>
+              </div>
+            </div>
+          </div>
+          <div class="bmw-1">
+            <img class="img" src="./img/image 137.png" alt="" />
+            <p class="m3">M2 Competition</p>
+            <p class="mw">BMW</p>
+            <div class="flex">
+              <p class="amount">$240.00</p>
+              <div class="flex">
+                <img class="star-2" src="./img/star.png" alt="" />
+                <p class="rating-2">4.9</p>
+              </div>
+            </div>
+          </div>
+          <div class="bmw-1">
+            <img class="img" src="./img/image 138.png" alt="" />
+            <p class="m3">M4 Competition</p>
+            <p class="mw">BMW</p>
+            <div class="flex">
+              <p class="amount">$240.00</p>
+              <div class="flex">
+                <img class="star-2" src="./img/star.png" alt="" />
+                <p class="rating-2">4.9</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex">
+          <div class="bmw">
+            <img class="img" src="./img/image 139.png" alt="" />
+            <p class="m3">M5 Competition</p>
+            <p class="mw">BMW</p>
+            <div class="flex">
+              <p class="amount">$240.00</p>
+              <div class="flex">
+                <img class="star-2" src="./img/star.png" alt="" />
+                <p class="rating-2">4.9</p>
+              </div>
+            </div>
+          </div>
+          <div class="bmw-1">
+            <img class="img" src="./img/image 140.png" alt="" />
+            <p class="m3">X3 m</p>
+            <p class="mw">BMW</p>
+            <div class="flex">
+              <p class="amount">$240.00</p>
+              <div class="flex">
+                <img class="star-2" src="./img/star.png" alt="" />
+                <p class="rating-2">4.9</p>
+              </div>
+            </div>
+          </div>
+          <div class="bmw-1">
+            <img class="img" src="./img/image 141.png" alt="" />
+            <p class="m3">X4 m</p>
+            <p class="mw">BMW</p>
+            <div class="flex">
+              <p class="amount">$240.00</p>
+              <div class="flex">
+                <img class="star-2" src="./img/star.png" alt="" />
+                <p class="rating-2">4.9</p>
+              </div>
+            </div>
+          </div>
+          <div class="bmw-1">
+            <img class="img" src="./img/image 142.png" alt="" />
+            <p class="m3">Z4</p>
+            <p class="mw">BMW</p>
+            <div class="flex">
+              <p class="amount">$240.00</p>
+              <div class="flex">
+                <img class="star-2" src="./img/star.png" alt="" />
+                <p class="rating-2">4.9</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex">
+          <button class="px-6 py-2 page focus:outline-none">
+            <span class="new">Next Page</span>
+          </button>
+          <div class="flex space-x-6 all-btn">
+            <p class="pages">Page</p>
+            <button class="px-6 py-2 o1 focus:outline-none">
+              <span class="one">1</span>
+            </button>
+            <p class="pages-1">of200</p>
+            <div class="flex">
+              <img class="right" src="./img/Group 1810.png" alt="" />
+              <img class="right" src="./img/Group 1809.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="md:hidden sm:flex">
+      <div class="sort-mobile">
+        <p class="sort-cars-mobile">CARS</p>
+        <p class="book-mobile">
+          Book Your <br />
+          car <span class="our-1">today!</span>
+        </p>
+        <p class="sort-eu-mobile">auctor imperdiet eu malesuada eu id</p>
+        <div class="flex mt-5 space-x-32">
+          <img class="group-all" src="./img/Group 4195.png" alt="" />
+          <img class="group-all-1" src="./img/Group 4021.png" alt="" />
+        </div>
+
+        <div class="bmw-mobile">
+          <img class="img" src="./img/image 135.png" alt="" />
+          <p class="m3">M3 Competition</p>
+          <p class="mw">BMW</p>
+          <div class="flex">
+            <p class="amount">$240.00</p>
+            <div class="flex">
+              <img class="star-2" src="./img/star.png" alt="" />
+              <p class="rating-2">4.9</p>
+            </div>
+          </div>
+
+          <div class="flex space-x-6 all-btn-mobile">
+            <p class="pages">Page</p>
+            <button class="px-6 py-2 o1 focus:outline-none">
+              <span class="one">1</span>
+            </button>
+            <p class="pages-1">of200</p>
+          </div>
+
+          <button class="px-6 py-2 page-mobile focus:outline-none">
+            <span class="new">Next Page</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="hidden md:flex">
+      <div>
+        <img class="rectan" src="./img/Rectangle 401.png" alt="" />
+        <div class="all-lore">
+          <p class="we-work">
+            We make your drive <br /><span class="memorable">memorable</span>
+          </p>
+          <p class="work-1">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus
+            libero, auctor <br />
+            imperdiet eu malesuada eu id cursus ullamcorper. Sed quisque
+          </p>
+          <button class="px-6 py-2 video focus:outline-none">
+            <span class="new">Let’s see video</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="md:hidden sm:flex">
+      <img class="all-mob" src="./img/Group 4199.png" alt="" />
+    </div>
+
+    <div class="hidden md:flex">
+      <div class="footer">
+        <div class="flex mt-32">
+          <div class="block ml-10">
+            <div class="flex mt-28">
+              <div class="logo-gym-footer p-1 ml-5">
+                <p class="ready-footer">
+                  Ready to get <br />
+                  started?
+                </p>
+              </div>
+            </div>
+            <button class="px-6 py-2 started focus:outline-none">
+              <span class="new-footer">Get Started</span>
+            </button>
+          </div>
+          <div class="flex space-x-44 mt-28">
+            <div class="ml-56">
+              <a class="list-footer-1" href="#">Services</a>
+              <a class="list-footer mt-3" href="#">Email Marketing</a>
+              <a class="list-footer mt-3" href="#">Campaigns</a>
+              <a class="list-footer mt-3" href="#">Branding</a>
+              <a class="list-footer mt-3" href="#">Offline</a>
+            </div>
+            <div>
+              <a class="list-footer-1" href="#">About</a>
+              <a class="list-footer mt-3" href="#">Our Story</a>
+              <a class="list-footer mt-3" href="#">Benefits</a>
+              <a class="list-footer mt-3" href="#">Team</a>
+              <a class="list-footer mt-3" href="#">Careers</a>
+            </div>
+            <div>
+              <a class="list-footer-1" href="#">Help</a>
+              <a class="list-footer mt-3" href="#">FAQs</a>
+              <a class="list-footer mt-3" href="#">Contact Us</a>
+            </div>
+          </div>
+
+          <!-- end -->
+        </div>
+
+        <div class="flex">
+          <div class="flex space-x-7 mt-28">
+            <p class="terms">Terms & Conditions</p>
+            <p class="terms-1">Privacy Policy</p>
+          </div>
+          <img class="social mt-28" src="./img/Social.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <div class="md:hidden sm:flex">
+      <div class="footer-mob">
+        <p class="ready-footer-mob">Ready to get started?</p>
+        <button class="px-6 py-2 started-mob focus:outline-none">
+          <span class="new-footer">Get Started</span>
+        </button>
+        <ul class="ml-10 mt-12">
+          <li class="list-footer-1-mobile">Services</li>
+          <li class="list-footer mt-5">Email Marketing</li>
+          <li class="list-footer mt-3">Campaigns</li>
+          <li class="list-footer mt-3">Branding</li>
+          <li class="list-footer mt-3">Offline</li>
+        </ul>
+        <ul class="ml-10 mt-8">
+          <li class="list-footer-1-mobile">About</li>
+          <li class="list-footer mt-5">Our Story</li>
+          <li class="list-footer mt-3">Benefits</li>
+          <li class="list-footer mt-3">Team</li>
+          <li class="list-footer mt-3">Careers</li>
+        </ul>
+        <ul class="ml-10 mt-8">
+          <li class="list-footer-1-mobile">Help</li>
+          <li class="list-footer mt-5">FAQs</li>
+          <li class="list-footer mt-3">Contact Us</li>
+        </ul>
+
+        <div class="flex space-x-7 mt-12">
+          <p class="terms-mobile">Terms & Conditions</p>
+          <p class="terms-1-mobile">Privacy Policy</p>
+        </div>
+
+        <img class="social-mobile mt-10" src="./img/Social.png" alt="" />
+
+        <!-- end -->
+      </div>
+    </div>
+    <!-- </div> -->
+
+    <!-- end -->
+  </body>
+</html>
